@@ -1,32 +1,33 @@
 # xiaojinao
 
-正在构建 Cellium-Agent。
-
-专注于 Agent Runtime、Tool System、Memory Architecture 与 AI 基础设施。
+构建模块化 Agent Runtime 与 AI 基础设施。
 
 <p align="left">
   <img src="https://img.shields.io/badge/Agent_Runtime-111111?style=flat-square" />
-  <img src="https://img.shields.io/badge/Tool_System-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Vision_Runtime-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Runtime_Self_Extension-111111?style=flat-square" />
   <img src="https://img.shields.io/badge/Memory_System-111111?style=flat-square" />
   <img src="https://img.shields.io/badge/Context_Engineering-111111?style=flat-square" />
   <img src="https://img.shields.io/badge/Desktop_Automation-111111?style=flat-square" />
-  <img src="https://img.shields.io/badge/Local_AI-111111?style=flat-square" />
 </p>
 
 ---
 
 ## 关于我
 
-目前主要研究：
+目前专注于 Agent Runtime 的设计与实现。
+
+关注方向：
 
 - Agent Runtime
-- Tool Calling
-- Context Engineering
+- Runtime Self-Extension
+- Vision Systems
 - Memory Architecture
+- Context Engineering
 - Long Running Tasks
-- Local AI Deployment
+- Desktop Automation
 
-更关注系统设计与运行时架构，而非单纯模型能力。
+相比模型能力本身，更关注如何构建能够长期运行、持续演化、自主执行的 Agent 系统。
 
 ---
 
@@ -36,28 +37,82 @@
 
 模块化桌面 Agent 框架。
 
-目标是构建一个：
+核心设计原则：
 
-- Provider 无关
-- 模块化
-- 可扩展
-- 可观测
+- High Cohesion
+- Loose Coupling
+- Provider Agnostic
+- Runtime Self-Extension
+- Observable Execution
 
-的 Agent Runtime。
+目标是构建面向长期运行任务的 Agent Runtime。
+
+聚焦于：
+
+- Agent Runtime
+- Tool System
+- Memory System
+- Vision System
+- Context Management
+- Desktop Automation
 
 ---
 
-## 最近在做
+## 当前工作
 
-- Tool Policy
-- Memory Manager
-- Context Compression
-- Long-Term Memory
-- Agent Evaluation Loop
-- Runtime Refactoring
+### Vision Runtime
+
+- 屏幕感知能力
+- 视觉上下文管理
+- 多模态输入融合
+- 视觉事件抽象
+
+### Communication Layer
+
+- 外部通信通道扩展
+- 消息路由机制
+- 事件驱动交互
+
+### Memory Layer
+
+- 长期记忆增强
+- 检索优化
+- 上下文压缩
+- 记忆隔离机制
+
+### Runtime
+
+- 运行时自扩展
+- 长时任务执行
+- Agent 生命周期管理
 
 ---
 
-## 联系方式
+## 架构理念
 
-欢迎通过 Issue 或 Discussion 交流 Agent 相关话题。
+```text
+Agent ≠ Model
+
+Model        提供智能
+Runtime      提供执行能力
+Memory       提供连续性
+Vision       提供环境感知
+Tools        连接现实世界
+```
+
+---
+
+## Featured Project
+
+### Cellium-Agent
+
+模块化桌面 Agent 框架
+
+GitHub：
+https://github.com/Cellium-Project/Cellium-Agent
+
+---
+
+<p align="left">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Cellium-Project&show_icons=true&hide_border=true&theme=transparent" />
+</p>
