@@ -10,3 +10,12 @@
 xiaojinao/xiaojinao is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+## 🚀 核心组件仓库 // Featured Repository
+
+├─ [Cellium-Agent](https://github.com/Cellium-Project/Cellium-Agent)
+│  └─ 模块化桌面 Agent 核心调度框架。聚焦于决策层解耦、低延迟感知与物理/桌面端自适应闭环控制逻辑。
+│
+└── 核心卡片组件
+    │
+    └── <a href="https://github.com/Cellium-Project/Cellium-Agent"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Cellium-Project&repo=Cellium-Agent&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&icon_color=888888&text_color=aaaaaa" /></a>
