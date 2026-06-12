@@ -107,6 +107,6 @@ https://github.com/Cellium-Project/Cellium-Agent
 
 ---
 
-<p align="left">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Cellium-Project&show_icons=true&hide_border=true&theme=transparent" />
-</p>
+<a href="https://github.com/Cellium-Project/Cellium-Agent">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cellium-Project&repo=Cellium-Agent&theme=transparent&hide_border=true" />
+</a>
