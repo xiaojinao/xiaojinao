@@ -1,56 +1,63 @@
 # xiaojinao
 
-专注于 AI Agent 运行时与基础设施开发。
+正在构建 Cellium-Agent。
 
-目前主要维护：
+专注于 Agent Runtime、Tool System、Memory Architecture 与 AI 基础设施。
 
-## Cellium-Agent
+<p align="left">
+  <img src="https://img.shields.io/badge/Agent_Runtime-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Tool_System-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Memory_System-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Context_Engineering-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Desktop_Automation-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Local_AI-111111?style=flat-square" />
+</p>
 
-一个模块化桌面 Agent 框架，重点关注：
+---
+
+## 关于我
+
+目前主要研究：
 
 - Agent Runtime
-- Tool System
-- Memory System
-- 长时任务执行
-- 桌面自动化
-- 本地模型集成
+- Tool Calling
+- Context Engineering
+- Memory Architecture
+- Long Running Tasks
+- Local AI Deployment
 
-项目地址：
-
-https://github.com/Cellium-Project/Cellium-Agent
+更关注系统设计与运行时架构，而非单纯模型能力。
 
 ---
 
-## 当前关注方向
+## 当前项目
 
-### Agent Runtime
+### Cellium-Agent
 
-探索 Agent 的调度、状态管理、任务执行与生命周期控制。
+模块化桌面 Agent 框架。
 
-### Tool System
+目标是构建一个：
 
-构建统一的工具调用层，降低工具接入与维护成本。
+- Provider 无关
+- 模块化
+- 可扩展
+- 可观测
 
-### Memory System
-
-研究短期记忆、长期记忆、向量检索与上下文压缩机制。
-
-### Local AI
-
-探索本地模型部署与低资源环境下的 Agent 运行方案。
+的 Agent Runtime。
 
 ---
 
-## 正在进行
+## 最近在做
 
-- Agent Runtime 重构
-- Tool Policy 设计
-- Memory Manager 优化
-- 长时任务执行机制
-- 桌面环境自动化能力建设
+- Tool Policy
+- Memory Manager
+- Context Compression
+- Long-Term Memory
+- Agent Evaluation Loop
+- Runtime Refactoring
 
 ---
 
-## 交流
+## 联系方式
 
-如果你也在构建 Agent、工具系统或 AI 基础设施项目，欢迎交流与讨论。
+欢迎通过 Issue 或 Discussion 交流 Agent 相关话题。
