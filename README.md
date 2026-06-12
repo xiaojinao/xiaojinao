@@ -1,6 +1,6 @@
 # xiaojinao
 
-构建模块化 Agent Runtime 与 AI 基础设施。
+构建模块化 Agent Runtime 与 AI 运行时自扩展工具。
 
 <p align="left">
   <img src="https://img.shields.io/badge/Agent_Runtime-111111?style=flat-square" />
@@ -106,7 +106,7 @@ Tools        连接现实世界
 
 ### Cellium-Agent
 
-模块化桌面 Agent 框架
+运行时自扩展 Agent 框架
 
 GitHub：
 https://github.com/Cellium-Project/Cellium-Agent
